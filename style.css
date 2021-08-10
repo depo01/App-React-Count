@@ -1,0 +1,38 @@
+body {
+  background-color: #333;
+  color: snow;
+  text-align: center;
+}
+
+.positivo {
+  color: lime;
+}
+
+.negativo {
+  color: tomato;
+}
+
+button {
+  margin: 0 3px;
+}
+
+hr {
+
+  border: 3px solid blue;
+}
+
+button {
+  border-radius: 5px;
+  background-color: transparent;
+  border: 2px solid blue;
+  color: white;
+}
+
+button:hover {
+  background-color: rgba(0, 183, 255, 0.287);
+}
+
+button:active {
+  background-color: blue;
+  transform: scale(.9);
+}
